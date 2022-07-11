@@ -2,5 +2,5 @@ apiVersion: v1
 kind: Namespace
 metadata:
   annotations:
-    app.openshift.io/vcs-uri: https://github.com/marrober/layers-ci.git
+    app.openshift.io/vcs-uri: https://github.com/hybrid-cloud-developers/layers-ci.git
   name: myapp-ci

@@ -38,7 +38,7 @@ spec:
           secretKeyRef:
             key: "token"
             name: "github-access-token"
-    image: quay.io/marrober/kustomize:latest
+    image: quay.io/hybrid-cloud-developers/kustomize:latest
     script: >
       #!/bin/sh
 

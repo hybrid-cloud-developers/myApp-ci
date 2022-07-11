@@ -10,7 +10,7 @@ spec:
     - name: repo_type
       value: github.com
     - name: myapp-cd-git-url
-      value: marrober/myApp-cd
+      value: hybrid-cloud-developers/myApp-cd
     - name: my-app-cd-git-repo-name
       value: myApp-cd
     - name: my-app-cd-git-repo-path-to-content
@@ -34,7 +34,7 @@ spec:
     - name: recursive-search
       value: "true"
     - name: image
-      value: quay.io/marrober/myapp:545f-frb5j
+      value: quay.io/hybrid-cloud-developers/myapp:545f-frb5j
   workspaces:
   - name: resources
     volumeClaimTemplate:

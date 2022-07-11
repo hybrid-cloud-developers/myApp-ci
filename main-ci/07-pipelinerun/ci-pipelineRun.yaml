@@ -15,7 +15,7 @@ spec:
         name: myapp-runtime
   params:
     - name: source-git-url
-      value: https://github.com/marrober/myApp-source.git
+      value: https://github.com/hybrid-cloud-developers/myApp-source.git
     - name: source-git-revision
       value: main
     - name: STORAGE_DRIVER
@@ -35,12 +35,12 @@ spec:
     - name: runtime_base_image
       # - open-liberty-base:2 - bad image
       # - openliberty:10 - good image
-#      value: quay.io/marrober/open-liberty-base:2
-      value: quay.io/marrober/openliberty:latest
+#      value: quay.io/hybrid-cloud-developers/open-liberty-base:2
+      value: quay.io/hybrid-cloud-developers/openliberty:latest
     - name: repo_type
       value: github.com
     - name: myapp-cd-git-url
-      value: marrober/myApp-cd
+      value: hybrid-cloud-developers/myApp-cd
     - name: my-app-cd-git-repo-name
       value: myApp-cd
     - name: my-app-cd-git-repo-path-to-content-development
@@ -68,7 +68,7 @@ spec:
     - name: recursive-search
       value: "true"
     - name: quay-io-account
-      value: "marrober"
+      value: "hybrid-cloud-developers"
     - name: quay-io-repository
       value: "myapp"
     - name: production-event-listener-route

@@ -50,7 +50,7 @@ spec:
 
         ls -al ./output
 
-      image: quay.io/marrober/kustomize:latest
+      image: quay.io/hybrid-cloud-developers/kustomize:latest
       workingDir: /files/$(params.subdirectory)
 
   workspaces:
