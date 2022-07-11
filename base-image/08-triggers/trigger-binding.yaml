@@ -9,7 +9,7 @@ spec:
   - name: gitrevision
     value: main
   - name: quay-io-account
-    value: "hybrid-cloud-developers"
+    value: "marrober"
   - name: quay-io-repository
     value: "openliberty"
   - name: quay-io-image-tag-name
